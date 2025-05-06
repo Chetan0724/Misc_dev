@@ -11,7 +11,6 @@ import Lists from "./components/Lists";
 import ListsTwo from "./components/ListsTwo";
 import UserList from "./components/UserList";
 import ProductListOne from "./components/ProductListOne";
-import ReactOne from "./components/ReactOne";
 
 function App() {
   return (
@@ -30,7 +29,6 @@ function App() {
       <ListsTwo />
       <UserList />
       <ProductListOne />
-      <ReactOne />
     </>
   );
 }
