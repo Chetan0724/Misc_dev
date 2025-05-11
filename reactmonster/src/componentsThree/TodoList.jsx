@@ -1,15 +1,40 @@
 import { useState } from "react";
 
 const TodoList = () => {
-  const [tasks, setTasks] = useState([]);
+  const [todos, setTodos] = useState([]);
+  const [inputValue, setInputValue] = useState("");
 
-  const handleTask = () => {
-    setTasks(tasks.push());
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    if (inputValue.trim()) {
+      setTodos([...todos, inputValue]);
+      setInputValue("");
+    }
   };
+
+  const handleChange = (e) => {
+    setInputValue(e.target.value);
+  };
+
   return (
     <div>
-      <input type="text" name="" id="" placeholder="Enter Task" />
-      <button onClick={handleTask}>Add task</button>
+      <h1>Todo List</h1>
+      <form onSubmit={handleSubmit}>
+        <input
+          type="text"
+          value={inputValue}
+          onChange={handleChange}
+          placeholder="Add a new Todo"
+        />
+        <button type="submit">Add task</button>
+      </form>
+
+      <ul>
+        {todos.map((todo, index) => (
+          <li key={index}>{todo}</li>
+        ))}
+      </ul>
     </div>
   );
 };

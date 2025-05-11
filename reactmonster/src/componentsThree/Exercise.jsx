@@ -9,8 +9,10 @@ const Exercise = () => {
 
   return (
     <div>
-      <p>Value of Count is: {count}</p>
+      {/* <p>Value of Count is: {count}</p> */}
+      <p>You clicked {count} times</p>
       <button onClick={handleClick}>Add +1</button>
+      <button onClick={() => setCount(count - 1)}>Sub -1</button>
     </div>
   );
 };

@@ -8,6 +8,11 @@ const Three = () => {
   });
 
   const increment = () => {
+    // setCount(count + 1);
+    // console.log(count);
+    // setCount(count + 1);
+    // console.log(count);
+
     setCount((prevCount) => prevCount + 1);
   };
 

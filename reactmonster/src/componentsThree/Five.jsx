@@ -18,7 +18,7 @@ const Five = () => {
 
   return (
     <div>
-      <h1>You Name: {name}</h1>
+      <h1>Your Name: {name}</h1>
       <input
         type="text"
         value={name}

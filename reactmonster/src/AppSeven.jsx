@@ -6,6 +6,8 @@ import Four from "./componentsThree/Four";
 import Five from "./componentsThree/Five";
 import Exercise from "./componentsThree/Exercise";
 import TodoList from "./componentsThree/TodoList";
+import ShoppingList from "./componentsThree/ShoppingList";
+import Profile from "./componentsThree/Profile";
 
 const AppSeven = () => {
   const [count, setCount] = useState(0);
@@ -18,6 +20,8 @@ const AppSeven = () => {
       <Five />
       <Exercise />
       <TodoList />
+      <Profile />
+      <ShoppingList />
     </section>
   );
 };

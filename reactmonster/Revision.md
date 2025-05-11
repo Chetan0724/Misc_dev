@@ -30,7 +30,7 @@ src / componentstwo / Weather.jsx
 
 src / componentsThree / Exercise.jsx
 src / componentsThree / Five.jsx
-src / componentsThree / Four.jsx
+src / componentsThree / Four.jsx ❌
 src / componentsThree / One.jsx
 src / componentsThree / Three.jsx
 src / componentsThree / TodoList.jsx
@@ -49,5 +49,8 @@ src / AppTwoOne.jsx
 src / main.jsx
 src / index.css
 
-src / todo / TodoList.jsx
-src / todo / styles.css
+src / todo / TodoList.jsx ❌
+src / todo / styles.css ❌
+
+src / componentsThree / Profile.jsx
+src / componentsThree / ShoppingList.jsx
