@@ -2,7 +2,13 @@
 // import Todo from "./01_ElevenMay/01_One/Todo";
 // import Meals from "./01_ElevenMay/01_One/Meals";
 // import Calculator from "./01_ElevenMay/01_One/Calculator";
-import ToggleBackgroundColor from "./01_ElevenMay/01_One/ToggleBackgroundColor";
+// import ToggleBackgroundColor from "./01_ElevenMay/01_One/ToggleBackgroundColor";
+// import HiddenSearchBar from "./01_ElevenMay/01_One/HiddenSearchBar";
+// import Testimonials from "./01_ElevenMay/01_One/Testimonials";
+// import Accordion from "./01_ElevenMay/01_One/Accordion";
+// import { accordionData } from "./01_ElevenMay/utilis/content";
+// import Form from "./01_ElevenMay/01_One/Form";
+import Ecommerceadvancefiltering from "./01_ElevenMay/01_One/Ecommerceadvancefiltering/Ecommerceadvancefiltering";
 
 const App = () => {
   return (
@@ -11,7 +17,16 @@ const App = () => {
       {/* <Todo /> */}
       {/* <Meals /> */}
       {/* <Calculator /> */}
-      <ToggleBackgroundColor />
+      {/* <ToggleBackgroundColor /> */}
+      {/* <HiddenSearchBar /> */}
+      {/* <Testimonials /> */}
+      {/* <div className="accordian">
+        {accordionData.map(({ title, content }) => (
+          <Accordion title={title} content={content} />
+        ))}
+      </div> */}
+      {/* <Form /> */}
+      <Ecommerceadvancefiltering />
     </div>
   );
 };
