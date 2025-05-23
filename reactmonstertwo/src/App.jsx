@@ -8,7 +8,7 @@
 // import Accordion from "./01_ElevenMay/01_One/Accordion";
 // import { accordionData } from "./01_ElevenMay/utilis/content";
 // import Form from "./01_ElevenMay/01_One/Form";
-import Ecommerceadvancefiltering from "./01_ElevenMay/01_One/Ecommerceadvancefiltering/Ecommerceadvancefiltering";
+// import Ecommerceadvancefiltering from "./01_ElevenMay/01_One/Ecommerceadvancefiltering/Ecommerceadvancefiltering";
 
 const App = () => {
   return (
@@ -20,13 +20,13 @@ const App = () => {
       {/* <ToggleBackgroundColor /> */}
       {/* <HiddenSearchBar /> */}
       {/* <Testimonials /> */}
-      {/* <div className="accordian">
-        {accordionData.map(({ title, content }) => (
-          <Accordion title={title} content={content} />
+      {/* <div className="accordion">
+        {accordionData.map(({ title, content }, index) => (
+          <Accordion title={title} content={content} key={index} />
         ))}
       </div> */}
       {/* <Form /> */}
-      <Ecommerceadvancefiltering />
+      {/* <Ecommerceadvancefiltering /> */}
     </div>
   );
 };

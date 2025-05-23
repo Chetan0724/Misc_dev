@@ -15,10 +15,6 @@ body {
   align-items: center;
 }
 
-.container {
-  border: 2px solid white;
-}
-
 .accordion-card {
   margin: 20px;
   padding: 20px;
@@ -29,12 +25,6 @@ body {
   display: flex;
   justify-content: space-between;
   width: 40rem;
-}
-
-.card-title {
-  display: flex;
-  justify-content: space-between;
-  width: 50rem;
 }
 
 .icon {
